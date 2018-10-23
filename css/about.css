@@ -1,0 +1,49 @@
+.about-main {
+ 
+  height: 100%;
+  text-align: center;
+}
+
+.about-h1 {
+    color: white; 
+  padding-top: 17%;
+  font-family: 'Vollkorn', serif;
+  font-size: 48px;
+}
+
+
+.about-p {
+    color: white; 
+  width: 500px;
+  margin: -28px auto 32px;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+
+.about-submit {
+  height: 50px;
+  width: 220px;
+  background: #009970;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+
+.about-submit:hover {
+  background: white;
+    color: #009970;
+}
+
+.about-submit:focus {
+  outline: none;
+  border: 2px solid #009970;
+  box-shadow: 0 0 10px white;
+}
